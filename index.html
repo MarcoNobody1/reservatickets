@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="ocean">
+      <h1>MUNDO OCEÁNICO<span id="show"> el espectáculo</span></h1>
+      <p>ADÉNTRATE EN EL MUNDO DESCONOCIDO</p>
+      <button id="getinfo">OBTENER INFORMACIÓN</button>
+      <button id="book">RESERVAR ENTRADAS</button>
+      <div id="info">
+        <h3>ACERCA DE</h3> El espectáculo presenta un documental que explora las vidas y las profundidades del mar. Los buzos se sumergen a profundidades extremas para filmar e investigar. <h3>CÓMO VERLO</h3> Míralo en nuestra plataforma OTT o visita los cines cercanos.
+      </div>
+      <div id="form">
+        <h3>¡RESERVA TU ENTRADA!</h3>
+        <label for="tickets">Entradas: </label><br>
+        <input type="number" id="tickets"><br>
+        <label for="email">Correo electrónico: </label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="preference">Preferencia: </label><br>
+        <select id="preference">
+          <option value="basic">Asiento básico - 5$</option>
+          <option value="premium">Asiento premium - 10$</option>
+          <option value="luxury">Asiento de lujo - 15$</option>
+        </select><br>
+        <button type="submit" style="margin:10px">RESERVAR</button>
+        <h4></h4>
+        <h4 id="secondH4"></h4>
+      </div>
+      <img src="https://mimo.app/i/whale.png" id="whale">
+      <img src="https://mimo.app/i/octopus.png" id="octopus">
+      <img src="https://mimo.app/i/crab.png" class="crabfish">
+      <img src="https://mimo.app/i/jellyfish.png" id="jellyfish"><br>
+      <img src="https://mimo.app/i/fish.png" class="crabfish">
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
